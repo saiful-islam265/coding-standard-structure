@@ -1,0 +1,20 @@
+{
+    "name": "saiful/wp-standard",
+    "description": "wp standard file including",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Saiful Islam",
+            "email": "saifulislam265@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WordPress\\Standard\\": "includes"
+        },
+        "files": ["includes/functions.php"]
+    }
+}
